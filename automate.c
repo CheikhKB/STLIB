@@ -9,7 +9,7 @@
 #include <string.h>
 
 void lire_lts(FILE*f){
-char *c, *d="";
+/*char *c, *d="";
 fscanf(f,"%c",&c);
 while(c){
     if(c==","); //creer une transition et ajouter l'alphabet; 
@@ -22,7 +22,7 @@ while(c){
 if(feof(f))break;
 }
 //rewind(f);
-printf("%s",&d);
+printf("%s",&d); */
 }
 
 lts sauver_lts(){
